@@ -1,19 +1,18 @@
-# Inspirational Quotes Generator
+# Weather Forecast App with Svelte
 
 ## Description
 
-This project is an inspirational quotes generator developed using svelte. it allows users to view inspirational quotes from famous people in a random way.
+This project is a weather forecast application developed using Svelte. It enables users to check the current weather and weekly forecasts for cities or countries of their choice.
 
 ## Implemented Features
 
-- **Random Phrase Generation**: You can easily add new tasks to your list using the provided input field.
-- **Browse by Author**: Users can view a list of quotes associated with that author.
+- **Weather Lookup**: Users can enter the name of a city or country to view the current weather and forecast for the upcoming week.
+- **Responsive Design**: The application is fully responsive, ensuring a seamless experience across various devices.
 
-## How it works
+## How it Works
 
-- Click on the "Generate Phrase" button to see a random inspirational phrase.
-- If you want to see more phrases from the same author, you can click on the "Next Phrase" button and a new card will be created with the previous and the new phrase.
-- Between the two cards it tells you how many sentences of this author are left unread.
+- Enter the name of the city or country in the search bar and click "Search" to retrieve the weather information.
+- The application displays the current weather conditions along with the forecast for the next seven days.
 
 ## Technologies Used
 
@@ -23,25 +22,26 @@ This project is an inspirational quotes generator developed using svelte. it all
 
 ## Screenshots
 
-¡Here are some screenshots of the application in action!
+Here are some screenshots showcasing the application in action!
 
-![Screenshots 1](/images/weather_app_desktop.png)
-![Screenshots 2](/images/weather_app_mobile.png)
+![Desktop View](./src/assets/weather_app_desktop.png)
+![Mobile View](./src/assets/weather_app_mobile.png)
 
 ## Links
 
-- **GitHub Repository:** [Repository Link](https://github.com/xabi1000/quotes_challenge)
-- **Live Application:** [App Link](https://quotes-generator-challenge.netlify.app/)
+- **GitHub Repository:** [Repository Link](https://github.com/xabi1000/weather_app)
+- **Live Application:** [App Link](https://your-app-url.com)
 
 ## Acknowledgments
 
-I would like to thank DevChallenges.io for providing this exciting challenge that allowed me to apply my frontend development skills and enhance my knowledge of the Svelte framework. I hope you enjoy using this application as much as I enjoyed creating it.
+I would like to express my gratitude to DevChallenges.io for providing an engaging platform to challenge my frontend development skills and enhance my expertise in the Svelte framework. Creating this weather application was a delightful experience, and I hope users find it helpful and user-friendly.
 
-Thank you for reviewing my project!
+Thank you for exploring my Weather Forecast App!
 
-Sincerely,
-[XaviCode]
+Warm regards,
+
+[XABI CODE]
 
 ---
 
-_Note: This is a concise overview of my project. For more details about the code and implementation, I invite you to explore the GitHub repository._
+_Note: This summary provides an overview of the project. For a more detailed exploration of the code and implementation, I encourage you to dive into the GitHub repository._
