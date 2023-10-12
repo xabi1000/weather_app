@@ -1,0 +1,15 @@
+@import './css/normalize.css';
+
+:root {
+  --card_font_sise: 1.5rem;
+  --min_width_today_mobile_section: 311px;
+  --gap: 0.7rem;
+  --icon_with: 1.75rem;
+  --sunset_color: rgb(138, 182, 233);
+  --sunrise_color: #e3ae22;
+}
+
+body {
+  background-color: #000000;
+  color: #fff;
+}
