@@ -3,7 +3,7 @@ import { GET_IP } from './location.js';
 
 const API_KEY = '5a282480b20842a1bea185535230209';
 
-export async function getWeatherData(query) {
+export async function getWeatherData(query = 'london') {
   try {
     if (query === undefined) {
       query = await GET_IP();
@@ -101,7 +101,6 @@ export async function getWeatherData(query) {
       forecast,
     };
   } catch (error) {
-    getWeatherData(undefined);
     console.error(
       'Error al obtener datos meteorológicos',
       error
