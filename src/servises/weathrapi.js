@@ -98,6 +98,6 @@ export async function getWeatherData(query) {
     };
   } catch (error) {
     console.error(error.message);
-    throw error; // Re-lanza el error para que otros lugares del código puedan manejarlo si es necesario
+    throw error;
   }
 }
